@@ -13,7 +13,7 @@ Official Repository for our paper **"Hybrid-Vector Retrieval for Visually Rich D
 
 - [2025/11] **ViMDoc** is now available on [Hugging Face](https://huggingface.co/datasets/kaistdata/ViMDoc)🤗!
 
-## 0. ViMDoc Benchmark 
+## ViMDoc Benchmark 
 **ViMDoc** (Visually-rich Long Multi-Document Retrieval Benchmark) for evaluating visual document
 retrieval under both **multi-document** and **long-document** settings. 
 
@@ -40,8 +40,8 @@ Sample document pages are stored in `sample_pages/`.
 **Note:** Full datasets for other benchmarks are available from their original sources: [OpenDocVQA](https://huggingface.co/datasets/NTT-hil-insight/OpenDocVQA) | [ViDoSeek](https://huggingface.co/datasets/autumncc/ViDoSeek) | [M3DocVQA](https://github.com/bloomberg/m3docrag)
 
 
-## 1. Indexing
-### 1.1 Encoding (Query/Document)
+## Indexing
+### (1) Encoding (Query/Document)
 
 ```bash
 cd indexing/encode
@@ -56,7 +56,7 @@ python encoder.py --encoder_type nvembedv2 --folder ViMDoc
 python encoder.py --encoder_type bge_m3_multi --folder ViMDoc
 ```
 
-### Available Encoders
+**Available Encoders**
 
 | Encoder | Modality | Type | HF Checkpoint |
 |---------|----------|------|------------|
@@ -71,7 +71,7 @@ python encoder.py --encoder_type bge_m3_multi --folder ViMDoc
 | `nvembedv2` | Textual (OCR) | Single-Vector | `nvidia/NV-Embed-v2` |
 
 
-### 1.2 VS-Page Construction
+### (2) VS-Page Construction
 
 ```bash
 
@@ -89,7 +89,7 @@ python assemble.py \
 ```
 
 
-## 2. Retrieval - HEAVEN
+## Retrieval - HEAVEN
 
 Run the complete HEAVEN pipeline (Stage 1 + Stage 2):
 
