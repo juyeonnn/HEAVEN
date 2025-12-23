@@ -11,7 +11,7 @@ Official Repository for our paper **"Hybrid-Vector Retrieval for Visually Rich D
 
 ## 🔥News
 
-- **ViMDoc** is now available on [Hugging Face](https://huggingface.co/datasets/kaistdata/ViMDoc)🤗!
+- [2025/11] **ViMDoc** is now available on [Hugging Face](https://huggingface.co/datasets/kaistdata/ViMDoc)🤗!
 
 ## 0. ViMDoc Benchmark 
 **ViMDoc** (Visually-rich Long Multi-Document Retrieval Benchmark) for evaluating visual document
@@ -24,9 +24,10 @@ from datasets import load_dataset
 dataset = load_dataset("kaistdata/ViMDoc", split="ViMDoc")
 ```
 
-### Format
+## Format
+Sample datasets are available in `benchmark/{ViMDoc,OpenDocVQA,ViDoSeek,M3DocVQA}`.
+Each  contains `sample_query.json` with queries and ground truth document IDs:
 
-The sample dataset contains `sample_query.json` with queries and ground truth document IDs:
 ```json
 {
     "id": "<query_id>",
@@ -36,6 +37,7 @@ The sample dataset contains `sample_query.json` with queries and ground truth do
     ]
 }
 ```
+
 Sample document pages are stored in `sample_pages/`.
 
 **Note:** Full datasets for other benchmarks are available from their original sources: [OpenDocVQA](https://huggingface.co/datasets/NTT-hil-insight/OpenDocVQA) | [ViDoSeek](https://huggingface.co/datasets/autumncc/ViDoSeek) | [M3DocVQA](https://github.com/bloomberg/m3docrag)
