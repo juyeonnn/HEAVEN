@@ -1,21 +1,20 @@
 # HEAVEN: Hybrid-Vector Retrieval for Visually Rich Documents
 
-Official Repository for our paper "Hybrid-Vector Retrieval for Visually Rich Documents: Combining Single-Vector Efficiency and Multi-Vector Accuracy"
-
 <a href='https://arxiv.org/abs/2510.22215'><img src='https://img.shields.io/badge/arXiv-2510.22215-b31b1b.svg'></a>
 <a href='https://huggingface.co/datasets/kaistdata/ViMDoc'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-green'></a>
 <a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/License-MIT-yellow.svg'></a>
 
+Official Repository for our paper **"Hybrid-Vector Retrieval for Visually Rich Documents: Combining Single-Vector Efficiency and Multi-Vector Accuracy"**
+
+
 
 ## 🔥News
 
-- **ViMDoc** is now available on Hugging Face🤗!
+- **ViMDoc** is now available on [Hugging Face🤗](https://huggingface.co/datasets/kaistdata/ViMDoc)!
 
 ## 0. ViMDoc Benchmark 
 **ViMDoc** (Visually-rich Long Multi-Document Retrieval Benchmark) for evaluating visual document
 retrieval under both **multi-document** and **long-document** settings. 
-ViMDoc is available at `benchmark/ViMDoc`.
-
 
 
 ```python
