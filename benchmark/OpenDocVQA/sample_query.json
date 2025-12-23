@@ -1,0 +1,82 @@
+[
+    {
+        "id": "dude-test_0",
+        "query": "What is the minimum wage Agricultural Employees on January 1, 2020?",
+        "doc_ids": [
+            "6fe71b02ed5e4e141a7e7a9e96505c31_0"
+        ],
+        "source": "dude"
+    },
+    {
+        "id": "dude-test_1",
+        "query": "On page 1, which city is the Intrust Bank Arena?b",
+        "doc_ids": [
+            "ecdf29f71df0246b590d00c5af298509_0"
+        ],
+        "source": "dude"
+    },
+    {
+        "id": "dude-test_2",
+        "query": "What is William Perry Pendley's job title?",
+        "doc_ids": [
+            "f6262ffcbd6f569f4b476f1f5fa2ad71_0"
+        ],
+        "source": "dude"
+    },
+    {
+        "id": "dude-test_3",
+        "query": "What is the Object of the Enterprise given on the General Information page?",
+        "doc_ids": [
+            "a2ef3dbde89003fb50b69e4565bf165f_5"
+        ],
+        "source": "dude"
+    },
+    {
+        "id": "dude-test_4",
+        "query": "What is J.C. Eaves relationship to Mr. Sam Quinn who died on December 16, 1911?",
+        "doc_ids": [
+            "04305c68c4b676726e5da1c8ad8bea6b_0"
+        ],
+        "source": "dude"
+    },
+    {
+        "id": "dude-test_5",
+        "query": "Which entities are able to find and distribute licensed work on the internet using metadata?",
+        "doc_ids": [
+            "be3aa0f8808220611be517dfe5a85a2c_1"
+        ],
+        "source": "dude"
+    },
+    {
+        "id": "dude-test_6",
+        "query": "What is the phone number under Christine Aag?",
+        "doc_ids": [
+            "2c8530d2d7f885a51ee74b7328bf025b_1"
+        ],
+        "source": "dude"
+    },
+    {
+        "id": "dude-test_7",
+        "query": "How long has Jeffrey worked with Skadden, Arps, Slate, Meagher & Flom LLP?",
+        "doc_ids": [
+            "00544a10cbf1d360394b3d5d9016ec19_0"
+        ],
+        "source": "dude"
+    },
+    {
+        "id": "dude-test_8",
+        "query": "What is the applicant present Professional Association?",
+        "doc_ids": [
+            "0df057296a2a8ad25780078b0b75d8df_0"
+        ],
+        "source": "dude"
+    },
+    {
+        "id": "dude-test_9",
+        "query": "What was the Fund Revenue adopted in 2012?",
+        "doc_ids": [
+            "a414d7b4d80340ec54e806e76458c0b5_0"
+        ],
+        "source": "dude"
+    }
+]

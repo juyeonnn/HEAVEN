@@ -1,0 +1,85 @@
+[
+    {
+        "id": "0",
+        "query": "What are the usual types of Hebrew law books Aaron Kuperman catalogs?",
+        "doc_ids": [
+            "0065_0"
+        ],
+        "source": "VisR-Bench"
+    },
+    {
+        "id": "1",
+        "query": "what is advertsing expense to sales ratio of Neflix in FY 2015? Round your answer to three decimal places.",
+        "doc_ids": [
+            "NETFLIX_2015_10K_39",
+            "NETFLIX_2015_10K_46"
+        ],
+        "source": "MMDocIR"
+    },
+    {
+        "id": "2",
+        "query": "What was the total value of assets in IBM's Software segment in 2008?",
+        "doc_ids": [
+            "IBM_Annual_Report_2010_page_131"
+        ],
+        "source": "REAL-MM-RAG"
+    },
+    {
+        "id": "3",
+        "query": "What are the benefits of using the Apex BAW Instance Archive for maintaining the BAW environment?",
+        "doc_ids": [
+            "Best Practices in IBM BAW Implementation_page_72"
+        ],
+        "source": "REAL-MM-RAG"
+    },
+    {
+        "id": "4",
+        "query": "How many stages are involved in the methodology for large-scale alignment for chatBots according to IBM?",
+        "doc_ids": [
+            "Business-ready GenAI: Innovate with InstructLab_page_8"
+        ],
+        "source": "REAL-MM-RAG"
+    },
+    {
+        "id": "5",
+        "query": "How many fuel cell patents did Esso obtain in the 1960s?",
+        "doc_ids": [
+            "4146508_59",
+            "4146508_61"
+        ],
+        "source": "LongDocURL"
+    },
+    {
+        "id": "6",
+        "query": "Which operating systems are emerging as strong competitors to Palm OS?",
+        "doc_ids": [
+            "0292_9"
+        ],
+        "source": "VisR-Bench"
+    },
+    {
+        "id": "7",
+        "query": "How did the free cash flow (excluding GF Receivables) change from 2006 to 2010?",
+        "doc_ids": [
+            "ibm-4q10-earnings-charts_page_58"
+        ],
+        "source": "REAL-MM-RAG"
+    },
+    {
+        "id": "8",
+        "query": "The transfection level for neurons is mentioned as 37.38% in the discussion of transfection/transduction rates, yes or no?",
+        "doc_ids": [
+            "4142297_78",
+            "4142297_79"
+        ],
+        "source": "LongDocURL"
+    },
+    {
+        "id": "9",
+        "query": "What were the total external and internal financing origins for IBM in 2006?",
+        "doc_ids": [
+            "IBM_Annual_Report_2006_page_53"
+        ],
+        "source": "REAL-MM-RAG"
+    }
+]

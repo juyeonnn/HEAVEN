@@ -1,0 +1,77 @@
+[
+    {
+        "id": "a33985b1e8b2502fc18cc8147dc27db8",
+        "query": "For which film did Ben Piazza play the role of Mr. Simms?",
+        "doc_ids": [
+            "8513db80c11ea439ab11eba406ec00d9"
+        ]
+    },
+    {
+        "id": "710a6d2254076ea58756c6c7cc211f1e",
+        "query": "When was the movie that had Ben Piazza in the role of Bob Whitewood released?",
+        "doc_ids": [
+            "5346073795a986f7bbbacbd4b197a787",
+            "8513db80c11ea439ab11eba406ec00d9"
+        ]
+    },
+    {
+        "id": "0d8f2779137fb47db953c4af5247ffe5",
+        "query": "What sports is the Ben Piazza 1976 movie title?",
+        "doc_ids": [
+            "8513db80c11ea439ab11eba406ec00d9",
+            "cadbc8e1fb23d7fe15b88ea1141d2dd2"
+        ]
+    },
+    {
+        "id": "e240f5fe65b39eee70d3576cff88fe5a",
+        "query": "Which film did Ben Piazza appear in first: \"Nightwing\" or the movie that shows half of a woman's face on the poster?",
+        "doc_ids": [
+            "8513db80c11ea439ab11eba406ec00d9",
+            "ddf8b52a8400deaf05940c5cad8169cd"
+        ]
+    },
+    {
+        "id": "18ecd2ac6c0ac69993b92dc4b30137e8",
+        "query": "Which Title(s), in Filmography of Ben Piazza, has the left half of a woman's face on its poster?",
+        "doc_ids": [
+            "ddf8b52a8400deaf05940c5cad8169cd"
+        ]
+    },
+    {
+        "id": "4ed96e69a31b726165be584f61e9eb54",
+        "query": "What league was the club Tuzla City in for the season Dzenis Beganovic played for them in his career?",
+        "doc_ids": [
+            "3be6caa43eb96153fd2d622392c07aee"
+        ]
+    },
+    {
+        "id": "e1e6ed53f9ad11813845088f4cf2f6b1",
+        "query": "Which Club(s), in Career statistics | Club of D\u017eenis Beganovi\u0107, have a flower on the logo?",
+        "doc_ids": [
+            "52830c5f8b6e8b19add8756c8f56576d"
+        ]
+    },
+    {
+        "id": "d82d381af11d76d8a70601251ecb8ca5",
+        "query": "What distance was the AP Warrior fast race at the Del Mar Racetrack?",
+        "doc_ids": [
+            "58a217d68016e334ee624bddaa6c93ec"
+        ]
+    },
+    {
+        "id": "471a2c824769af89d5d77a881462c775",
+        "query": "What kind of horses race in the A.P. Warrior events with One and One-Quarter Miles?",
+        "doc_ids": [
+            "58a217d68016e334ee624bddaa6c93ec",
+            "cf7add03ba748689c02dd3bbdf7430c6"
+        ]
+    },
+    {
+        "id": "d82159f62e879044fba10f810f13e40c",
+        "query": "When did Mine That Bird win the A.P. Warrior race at Churchill Downs?",
+        "doc_ids": [
+            "58a217d68016e334ee624bddaa6c93ec",
+            "ff2a807bcea4513a88b7c851ef6a1198"
+        ]
+    }
+]
