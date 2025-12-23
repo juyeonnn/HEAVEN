@@ -2,6 +2,9 @@
 
 Official Repository for our paper "Hybrid-Vector Retrieval for Visually Rich Documents: Combining Single-Vector Efficiency and Multi-Vector Accuracy"
 
+[![arXiv](https://img.shields.io/badge/arXiv-2504.15135-b31b1b.svg)](https://arxiv.org/abs/2510.22215)
+[![Dataset]( https://img.shields.io/badge/hugging_face-datset-yellow)](https://huggingface.co/datasets/kaistdata/ViMDoc)
+
 
 ## 0. ViMDoc Benchmark 
 **ViMDoc** (Visually-rich Long Multi-Document Retrieval Benchmark) for evaluating visual document
@@ -120,3 +123,13 @@ HEAVEN/
 │                
 └── run.sh              
 ```
+
+## Citation
+
+```bibtex
+@article{kim2025hybrid,
+  title={Hybrid-Vector Retrieval for Visually Rich Documents: Combining Single-Vector Efficiency and Multi-Vector Accuracy},
+  author={Kim, Juyeon and Lee, Geon and Choi, Dongwon and Kim, Taeuk and Shin, Kijung},
+  journal={arXiv preprint arXiv:2510.22215},
+  year={2025}
+}
