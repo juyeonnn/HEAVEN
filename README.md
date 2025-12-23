@@ -20,7 +20,6 @@ retrieval under both **multi-document** and **long-document** settings.
 
 ```python
 from datasets import load_dataset
-
 dataset = load_dataset("kaistdata/ViMDoc", split="ViMDoc")
 ```
 
@@ -32,9 +31,7 @@ Each  contains `sample_query.json` with queries and ground truth document IDs:
 {
     "id": "<query_id>",
     "query": "<query_text>",
-    "doc_ids": [
-        "<document_id>"
-    ]
+    "doc_ids": ["<document_id>"]
 }
 ```
 
