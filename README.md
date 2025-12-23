@@ -2,18 +2,31 @@
 
 Official Repository for our paper "Hybrid-Vector Retrieval for Visually Rich Documents: Combining Single-Vector Efficiency and Multi-Vector Accuracy"
 
-[![arXiv](https://img.shields.io/badge/arXiv-2504.15135-b31b1b.svg)](https://arxiv.org/abs/2510.22215)
-[![Dataset]( https://img.shields.io/badge/hugging_face-datset-yellow)](https://huggingface.co/datasets/kaistdata/ViMDoc)
+<a href='https://arxiv.org/abs/2510.22215'><img src='https://img.shields.io/badge/arXiv-2510.22215-b31b1b.svg'></a>
+<a href='https://huggingface.co/datasets/kaistdata/ViMDoc'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-green'></a>
+<a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/License-MIT-yellow.svg'></a>
 
+
+## 🔥News
+
+- **ViMDoc** is now available on Hugging Face🤗!
 
 ## 0. ViMDoc Benchmark 
 **ViMDoc** (Visually-rich Long Multi-Document Retrieval Benchmark) for evaluating visual document
-retrieval under both **multi-document** and **long-document** settings. ViMDoc is available at `benchmark/ViMDoc`.
+retrieval under both **multi-document** and **long-document** settings. 
+ViMDoc is available at `benchmark/ViMDoc`.
 
-Other benchmarks are available both in our repository (`benchmark/OpenDocVQA` |`benchmark/ViDoSeek` | `benchmark/M3DocVQA`) and from original sources ( [OpenDocVQA](https://huggingface.co/datasets/NTT-hil-insight/OpenDocVQA) | [ViDoSeek](https://huggingface.co/datasets/autumncc/ViDoSeek) | [M3DocVQA](https://github.com/bloomberg/m3docrag) )
 
-###  Format
-All benchmarks contain `test.json` with queries and ground truth document IDs:
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("kaistdata/ViMDoc", split="ViMDoc")
+```
+
+### Format
+
+The sample dataset contains `sample_query.json` with queries and ground truth document IDs:
 ```json
 {
     "id": "<query_id>",
@@ -23,7 +36,10 @@ All benchmarks contain `test.json` with queries and ground truth document IDs:
     ]
 }
 ```
-Sampled document pages are stored in `sampled_pages/`
+Sample document pages are stored in `sample_pages/`.
+
+**Note:** Full datasets for other benchmarks are available from their original sources: [OpenDocVQA](https://huggingface.co/datasets/NTT-hil-insight/OpenDocVQA) | [ViDoSeek](https://huggingface.co/datasets/autumncc/ViDoSeek) | [M3DocVQA](https://github.com/bloomberg/m3docrag)
+
 
 ## 1. Indexing
 ### 1.1 Encoding (Query/Document)
