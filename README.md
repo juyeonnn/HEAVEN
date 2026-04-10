@@ -10,8 +10,8 @@ Official Repository for our paper **"Hybrid-Vector Retrieval for Visually Rich D
 
 
 ## 🔥News
-
-- [2025/11] **ViMDoc** is now available on [Hugging Face](https://huggingface.co/datasets/kaistdata/ViMDoc)🤗!
+- [2026-04] **HEAVEN** is accepted to ACL 2026 Findings🎉
+- [2025-11] **ViMDoc** is now available on [Hugging Face](https://huggingface.co/datasets/kaistdata/ViMDoc)🤗
 
 ## ViMDoc Benchmark 
 **ViMDoc** (Visually-rich Long Multi-Document Retrieval Benchmark) for evaluating visual document
